@@ -74,7 +74,7 @@ library
     network-uri >= 2.6.1 && < 2.7,
     zenc == 0.1.*
 
-  if impl(ghcjs)
+  if True
     hs-source-dirs: src-ghcjs
     build-depends:
       ghcjs-base,
